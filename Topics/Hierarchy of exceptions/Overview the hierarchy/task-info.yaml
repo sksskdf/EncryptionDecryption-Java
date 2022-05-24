@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <b>RuntimeException</b> extends <b>Exception</b>, <b>Exception</b> extends
+    <b>Throwable</b>
+- text: <b>Error</b> extends <b>Exception</b>, <b>Exception</b> extends <b>Throwable</b>
+- text: <b>RuntimeException</b> extends <b>Exception</b>, <b>Exception</b> extends
+    <b>Error</b>
+- text: <b>Error</b> extends <b>Throwable</b>, <b>Throwable</b> extends <b>Exception</b>
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2463#comment
+status: Solved
+record: -1

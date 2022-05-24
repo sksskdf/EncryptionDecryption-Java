@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <b>Exception</b> extends <b>RuntimeException</b>
+- text: <b>NullPointerException</b> extends <b>RuntimeException</b>
+- text: <b>IOException</b> extends <b>RuntimeException</b>
+- text: ' <b>Exception</b> and <b>Throwable</b> extend <b>Error</b>'
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2811#comment
+status: Solved
+record: -1
+custom_name: Overview the hierarchy

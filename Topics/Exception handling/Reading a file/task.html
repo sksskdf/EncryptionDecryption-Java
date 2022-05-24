@@ -1,0 +1,18 @@
+<h2>Reading a file</h2>
+<html>
+ <head></head>
+ <body>
+  <p>The following code invokes a method named <code class="language-java">readFile</code>. The method throws <code class="language-java">IllegalArgumentException</code> if the input string is <code class="language-java">null</code> or empty (<code class="language-java">""</code>). It also throws <code class="language-java">IOException</code> in case the file is not found or the application has no permission to read the file. </p> 
+  <p>What does the following code output?</p> 
+  <pre><code class="language-java">String filename = "";
+try {
+    readFile(filename);
+} catch (NumberFormatException e) {
+    System.out.println("FormatException");
+} catch (IOException e) {
+    System.out.println("IOException");
+} catch (Exception e) {
+    System.out.println("Exception");
+}</code></pre>
+ </body>
+</html>

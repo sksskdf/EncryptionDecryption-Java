@@ -1,0 +1,45 @@
+<h2>Extended classes</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Here's a class hierarchy containing three classes <code class="language-java">A</code>, <code class="language-java">B</code> and <code class="language-java">C</code>.</p> 
+  <p> </p> 
+  <pre><code class="language-java">class A {
+    
+    protected int field;
+    
+    public A(int val) {
+        this.field = val + 1;
+    }
+}
+
+class B extends A {
+    
+    protected int field;
+    
+    public B(int val) {
+        super(val);
+        this.field = super.field * 2;
+    }
+}
+
+class C extends B {
+    
+    protected int field;
+    
+    public C(int val) {
+        super(val);
+        this.field = super.field + 2;
+    }
+    
+    public void printField() {
+        System.out.println(super.field);
+    }
+}</code></pre> 
+  <p> </p> 
+  <p>What value does the following code print?</p> 
+  <p> </p> 
+  <pre><code class="language-java">C c = new C(2);
+c.printField();</code></pre>
+ </body>
+</html>

@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: We can invoke a parameterized constructor of the superclass using <b>super(...)</b>
+    in a constructor of a subclass.
+- text: The default constructor of a subclass automatically calls the no-argument
+    constructor of the superclass.
+- text: The keyword <b>super</b> can be replaced by the keyword <b>this</b>.
+- text: The keyword <b>super</b> is always required to access fields of the base class
+    in a subclass.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3044#comment
+status: Solved
+record: -1

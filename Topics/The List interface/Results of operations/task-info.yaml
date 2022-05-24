@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: ' <b>list.size() </b> is 4'
+- text: ' <b>list.subList(0, 1)</b> includes two elements'
+- text: ' <b>list.get(3) </b> is "third"'
+- text: ' <b>list.contains("FIRST")</b> returns <b>false</b>'
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2094#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Wed, 18 May 2022 00:39:08 UTC
+record: -1
+selected_options:
+- 0
+- 3

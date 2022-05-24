@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: int float method
+- text: double double method
+- text: int int method
+- text: float int method
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2038#comment
+status: Solved
+record: -1

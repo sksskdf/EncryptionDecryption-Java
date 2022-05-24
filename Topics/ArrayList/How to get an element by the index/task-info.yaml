@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: list.get(index)
+- text: list[index]
+- text: list.indexOf(index)
+- text: list.take(index)
+- text: list.charAt(index)
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3483#comment
+status: Unchecked
+record: -1

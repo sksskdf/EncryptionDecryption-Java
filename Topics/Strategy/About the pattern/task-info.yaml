@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Concrete algorithms must not have constructors.
+- text: The context has fields for storing each concrete strategy.
+- text: It helps to avoid changes in existing classes when adding new strategies.
+- text: It defines a family of algorithms and encapsulates each one in a separated
+    class.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3319#comment
+status: Solved
+record: -1

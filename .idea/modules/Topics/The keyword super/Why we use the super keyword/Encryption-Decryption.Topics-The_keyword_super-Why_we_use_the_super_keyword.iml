@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Topics-The_keyword_super-Why_we_use_the_super_keyword" external.linked.project.path="$MODULE_DIR$/../../../../../Topics/The keyword super/Why we use the super keyword" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Encryption-Decryption" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Topics/The keyword super/Why we use the super keyword">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/The keyword super/Why we use the super keyword/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/The keyword super/Why we use the super keyword/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/The keyword super/Why we use the super keyword/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,34 @@
+<h2>Which methods must be overridden</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Here's a hierarchy consisting of three classes <code class="language-java">A</code>, <code class="language-java">B</code> and <code class="language-java">C</code>. The class <code class="language-java">C</code> is incomplete.</p> 
+  <p> </p> 
+  <pre><code class="language-java">abstract class A { 
+    
+    public static void staticFoo() { }
+    
+    public void instanceBar() { }
+    
+    public abstract void abstractFoo();
+    
+    public abstract void abstractBar();
+}
+
+abstract class B extends A { 
+    
+    public static void anotherStaticFoo() { }
+    
+    public void anotherInstanceBar() { }
+
+    @Override
+    public void abstractBar() { }
+    
+    public abstract void qq();
+}
+
+class C extends B { }</code></pre> 
+  <p> </p> 
+  <p>Select all methods which should be overridden in the class <code class="language-java">C</code>.</p>
+ </body>
+</html>

@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: starts from the root of the file system
+- text: starts from your user directory
+- text: starts from your working directory
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7700#comment
+status: Solved
+record: -1

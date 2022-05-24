@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: processes a request in a sequence of handlers
+- text: defines the skeleton of an algorithm in an operation, deferring some steps
+    to subclasses
+- text: encapsulates a request as an object
+- text: ensures the class only has a limited number of instances
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5156#comment
+status: Solved
+record: -1
+custom_name: What does it do?

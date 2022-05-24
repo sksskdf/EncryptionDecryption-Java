@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: void process(String a, int b, int c) { }
+- text: void process(int a, int b) { }
+- text: int process(boolean a, int b) { return 0; }
+- text: int process(int a) { return 0; }
+- text: int process(int b, int a) { return 0; }
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3450#comment
+status: Solved
+record: -1
